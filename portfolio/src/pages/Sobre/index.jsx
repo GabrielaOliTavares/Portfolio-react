@@ -1,7 +1,7 @@
 
 
 import styles from './Sobre.module.css'
-import avatar from './images/avatar.png'
+
 import html from './images/icon-html.svg'
 import css from './images/icon-css.svg'
 import js from './images/icon-js.svg'

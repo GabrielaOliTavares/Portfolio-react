@@ -2,7 +2,6 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Container from '../../components/Container'
 import styles from './Contatos.module.css'
-import { IconName } from "react-icons/ai";
 import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from 'react-icons/bs'
 import { GoMail } from 'react-icons/go'
 
