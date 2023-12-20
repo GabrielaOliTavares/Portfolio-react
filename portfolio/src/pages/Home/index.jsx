@@ -1,27 +1,33 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import Container from '../../components/Container'
+import styles from './Home.module.css'
 import { Link } from 'react-router-dom'
 
 function Home() {
     return (
        <>
           <Header />
-          <section className='container'>
-            <div className='apresentacao'>
-              <p>
-                Olá, sou <br/>
-                <span>Gabriela Tavares</span> <br/>
-                Programadora
-              </p>
-              <Link to="/sobre" className='btn btn-red'>
-    Saiba mais sobre mim
-</Link>
+          
+          <Container className={styles.Container}>
+  <section className={styles.home}>
+      <div className={styles.apresentacao}>
+          <p className={`${styles.p} ${styles.span}`}>
+              Olá, sou <br />
+              <span>Gabriela Tavares</span> <br />
+              Dev Full Stack
+          </p>
+          <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
+              Saiba mais sobre mim
+          </Link>
+      </div>
+      <figure>
+          <img className={styles.img_home} src="/developer-red.svg" alt="Imagem de Home" />
+      </figure>
+  </section>
 
-            </div>
-            <figure>
-              <img className='img-home' src="/developer-red.svg" alt="Imagem de Home" />
-            </figure>
-          </section>
+</Container>
+
           <Footer />
         </> 
     )
