@@ -9,12 +9,12 @@ function Home() {
        <>
           <Header />
           
-          <Container className={styles.Container}>
+          <Container>
   <section className={styles.home}>
       <div className={styles.apresentacao}>
-          <p className={`${styles.p} ${styles.span}`}>
+          <p>
               Olá, sou <br />
-              <span>Gabriela Tavares</span> <br />
+              <span>Sandra Alves</span> <br />
               Dev Full Stack
           </p>
           <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
@@ -25,8 +25,8 @@ function Home() {
           <img className={styles.img_home} src="/developer-red.svg" alt="Imagem de Home" />
       </figure>
   </section>
-
 </Container>
+
 
           <Footer />
         </> 
