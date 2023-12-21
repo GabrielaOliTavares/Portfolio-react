@@ -9,7 +9,6 @@ import imageHome from './img/developer-red.svg'
 function Home() {
     return (
        <>
-          <Header />
           
           <Container>
   <section className={styles.home}>
@@ -29,9 +28,7 @@ function Home() {
       </figure>
   </section>
 </Container>
-
-
-          <Footer />
+          
         </> 
     )
 }

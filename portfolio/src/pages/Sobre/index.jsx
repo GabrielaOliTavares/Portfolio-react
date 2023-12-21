@@ -18,14 +18,14 @@ function Sobre() {
                 <div className={styles.textos}>
                     <h2>Sobre</h2>
 
-                    <p>Sou <span>Sandra Alves</span> <br />
-                    <strong>Dev e Professora</strong> </p>
+                    <p>Sou <span>Gabriela Tavares</span> <br />
+                    <strong>Programadora</strong> </p>
 
-                    <p>Trabalho com desenvolvimento Web desde 2010.</p>
+                    <p>Formei no ensino médio tecnico em tecnologia pelo Cotemig</p>
 
                     <p>Sou apaixonada por transformar ideias em realidade digital.</p>
 
-                    <p>Fico muito orgulhosa em testemunhar a evolução pessoal e profissional de cada aluno</p>
+                    <p>Sou estudiosa e não minto quando não sei de algo, porém vou atrás de aprender</p>
                 </div>
             </div>
 

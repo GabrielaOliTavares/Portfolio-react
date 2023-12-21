@@ -9,7 +9,7 @@ import { GoMail } from 'react-icons/go'
 function Contatos() {
     return (
         <>
-            <Header />
+            
             <Container>
                 <section className={styles.contatos}>
                     <h2>Contatos</h2>
@@ -19,11 +19,11 @@ function Contatos() {
 
                     <div className={styles.icones}>
                         
-                        <a href='mailto:sandracastroprofessora@gmail.com' target='_blank' rel='noopener noreferrer'>
+                        <a href='mailto:gabitav0707@gmail.com' target='_blank' rel='noopener noreferrer'>
                             <GoMail className={styles.icone} />
                         </a>
 
-                        <a href='https://' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.instagram.com/gabitx__/' target='_blank' rel='noopener noreferrer'>
                             <BsInstagram className={styles.icone} />
                         </a>
 
@@ -31,11 +31,11 @@ function Contatos() {
                             <BsYoutube className={styles.icone} />
                         </a>
 
-                        <a href='' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://github.com/GabrielaOliTavares' target='_blank' rel='noopener noreferrer'>
                             <BsGithub className={styles.icone} />
                         </a>
 
-                        <a href='' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.linkedin.com/in/gabriela-oliveira-297071208/' target='_blank' rel='noopener noreferrer'>
                             <BsLinkedin className={styles.icone} />
                         </a>
 
@@ -43,7 +43,7 @@ function Contatos() {
 
                 </section>
             </Container>
-            <Footer />
+           
         </>
     )
 }
